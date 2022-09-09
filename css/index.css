@@ -1,0 +1,25 @@
+.background{
+    background-color: #F8F2F4;
+}
+.top-nav{
+    background-color: #861388;
+    padding-inline: 10px;
+    padding-block: 8px;
+    box-shadow: 0px 3px 10px black;
+    position: relative;
+}
+.sliderbox{
+    padding-block: 150px;
+    padding-inline: 30px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .carousel {
+    width:640px;
+    height:500px;
+
+  }
