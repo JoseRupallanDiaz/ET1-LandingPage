@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Taligurumis - Inicio</title>
+    <!-- CSS propio -->
     <link href="./css/index.css" rel="stylesheet">
-    <!--Bootstrap-->
+    <!-- Bootstrap -->
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -17,43 +18,52 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body class="background">
-    <div class="top-nav">
-        <img src="./img/logo.svg" height="80px" class="center">
+<body>
+    <div class="header">
+        <a href="./index.html">
+            <img src="./img/logotipo.png" id="logo">
+        </a>
     </div>
-    <div class="row">
-        <div class="col sliderbox">
-            <h1>Tu Punto Dulce Villarrica</h1>
-            <p>
-                El lugar mas dulce de la región!
-            </p>
+    <div class="carrousel-body">
+        <div class="carrousel-text">
+            <h1>Haz realidad tu imaginación!</h1>
+            <p>En Taligurumis nos preocupamos por nuestros clientes para que puedan hacer sus ideas en algo tejido fisico y hermoso.</p>
         </div>
-        <div class="col">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carrousel-img">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./img/imagen1.jpg" width="640px" height="500px" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/imagen2.jpg" width="640px" height="500px" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/imagen3.jpg" width="640px" height="500px" alt="...">
-                    </div>
+                  <div class="carousel-item active">
+                    <img src="./img/imagen1.png">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/imagen2.png">
+                  </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+              </div>
         </div>
-
+    </div>
+    <div class="first-info-section">
+        <h1>Inmortaliza algo anhelado</h1>
+        <p>Guarda algun recuerdo de tí o algo que caracterice tu vida para que lo tengas para siempre.</p>
+        <img src="./img/imagen3.jpg">
+    </div>
+    <div class="form-section">
+        <h2>Ingresa tu pedido aqui!</h2>
+        <form action="">
+            <label id="title" class="form-label">Título de pedido</label>
+            <input type="text" id="title" class="form-control">
+            <label id="email" class="form-label">Correo</label>
+            <input type="text" id="email" class="form-control">
+            <label id="name" class="form-label">Nombre propietario</label>
+            <input type="text" id="name" class="form-control">
+            <label id="description" class="form-label">Descripción referencial</label>
+            <textarea type="text" id="description" class="form-control"></textarea>
+            <button type="submit" id="send" class="btn btn-primary">Enviar pedido</button>
+        </form>
+    </div>
+    <div class="footer">
+        <img id="isotype" src="./img/isotipo.png">
+        <h5>www.taligurumis.cl</h5>
     </div>
 </body>
 
