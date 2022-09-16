@@ -11,7 +11,7 @@ body {
     text-align: center;
     background-color: rgb(101, 78, 98);
     padding: 1vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .carrousel-body{
@@ -31,6 +31,7 @@ body {
 
 .carrousel-img{
     align-self: center;
+    width: 500px;
 }
 
 .header #logo{
